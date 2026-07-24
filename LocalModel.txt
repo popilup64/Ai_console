@@ -1,0 +1,61 @@
+qwen2
+
+Meta-Llama-3-8B-Instruct
+
+DeepSeek-R1-Distill-Qwen-7B-Q4_0
+
+DeepSeek-R1-Distill-Qwen-14B-Q4_0
+
+DeepSeek-R1-Distill-Llama-8B-Q4_0
+
+DeepSeek-R1-Distill-Qwen-1
+
+Llama-3
+
+Nous-Hermes-2-Mistral-7B-DPO
+
+mistral-7b-instruct
+
+mistral-7b-openorca
+
+gpt4all-falcon
+
+orca-2-7b
+
+orca-2-13b
+
+wizardlm-13b
+
+ghost-7b
+
+nous-hermes-llama2-13b
+
+gpt4all-13b-snoozy
+
+mpt-7b-chat
+
+Phi-3-mini-4k-instruct
+
+orca-mini-3b
+
+replit-code-3b
+
+starcoder
+
+rift-coder-7b
+
+all-MiniLM-L6-v2 (это эмбеддинг-модель, не для чата)
+
+em_german_mistral (эмбеддинг для немецкого)
+
+nomic-embed-text (эмбеддинг-модель)
+
+qwen2-1_5b-instruct
+
+
+Модели для чата (можно использовать с LocalClient): все, кроме помеченных как «эмбеддинг».
+Эмбеддинг-модели (all-MiniLM-L6-v2, em_german_mistral, nomic-embed-text) предназначены для векторных поисков и сравнения текстов, а не для генерации ответов.
+
+Если у вас более 8 ГБ свободной ОЗУ – берите Meta-Llama-3-8B-Instruct. Это современный стандарт среди открытых моделей.
+Если памяти меньше – ставьте Phi-3-mini-4k-instruct – она удивительно хороша для своего размера.
+Если вам нужен код – выбирайте любую из DeepSeek или starcoder.
