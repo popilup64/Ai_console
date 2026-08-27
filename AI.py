@@ -4,6 +4,7 @@ from g4f.client import Client
 from g4f.local import LocalClient #Если нужна локальная модель
 from colorama import Fore, Style
 from deep_translator import GoogleTranslator
+from deep_translator import MyMemoryTranslator
 from pick import pick
 from pathlib import Path
 import time
@@ -28,7 +29,7 @@ client = Client()
 #client = LocalClient() - убрать # если нужна локальная модель и выбрать нужную из списка LocalModel.txt и вставить в model_ch
 model_ch = "deepseek-r1"
 model_image = "flux"
-translator = GoogleTranslator(source='ru', target='en')
+translator = MyMemoryTranslator(source='ru-RU', target='en-US')
 messages = []
 
 folder_prompts = Path('prompts')
