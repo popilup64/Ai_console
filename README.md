@@ -161,4 +161,4 @@ AI/
 
 ## 📄 Автор
 
-[popilup](https://github.com/popilup64)
+[Popilup](https://github.com/popilup64)
